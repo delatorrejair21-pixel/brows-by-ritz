@@ -362,7 +362,7 @@ function Services() {
     },
     {
       name: "Brow Touchups",
-      price: "$150–$200",
+      price: "$120",
       category: "Brows",
       desc: "Refresh and perfect your brows after the initial healing period or as maintenance.",
       badge: null,
@@ -379,6 +379,27 @@ function Services() {
       price: "$250",
       category: "Lips",
       desc: "Refresh existing lip blush color and restore softness and vibrance.",
+      badge: null,
+    },
+    {
+      name: "Black Face Doll",
+      price: "$500",
+      category: "Advanced",
+      desc: "A full-face permanent makeup look designed to enhance and define your features with a bold, flawless finish.",
+      badge: null,
+    },
+    {
+      name: "Tattoo Removal",
+      price: "$80 / 3 sq in",
+      category: "Removal",
+      desc: "Safe and effective tattoo removal priced per 3 square inches per session.",
+      badge: null,
+    },
+    {
+      name: "Brow Removal",
+      price: "$150 / session",
+      category: "Removal",
+      desc: "Professional removal of previous brow work to restore your natural brows or prepare for a fresh enhancement.",
       badge: null,
     },
   ];
@@ -600,9 +621,12 @@ const SERVICES_LIST = [
   "Microshading / Ombré Brows — $400",
   "Nano Brows — $600",
   "Combo Brows — $500",
-  "Brow Touchup — $150–$200",
+  "Brow Touchup — $120",
   "Lip Blush — $500",
   "Lip Refresh — $250",
+  "Black Face Doll — $500",
+  "Tattoo Removal — $80 / 3 sq in",
+  "Brow Removal — $150 / session",
 ];
 
 const PAYMENT_METHODS = [
@@ -1120,6 +1144,9 @@ function Footer() {
     "Brow Touchups",
     "Lip Blush",
     "Lip Refresh",
+    "Black Face Doll",
+    "Tattoo Removal",
+    "Brow Removal",
   ];
 
   const navLinks = [
